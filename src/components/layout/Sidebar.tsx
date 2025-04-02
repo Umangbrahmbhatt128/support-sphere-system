@@ -54,8 +54,8 @@ const Sidebar = ({ className }: SidebarProps) => {
       <div className="h-full flex flex-col pt-5 pb-4 overflow-y-auto">
         <div className="flex items-center justify-center h-16 flex-shrink-0">
           <Link to="/" className="flex items-center">
-            <span className="text-primary font-bold text-xl mr-1">Support</span>
-            <span className="text-gray-700 font-medium text-xl">Sphere</span>
+            <span className="text-primary font-bold text-xl mr-1">Pragnya</span>
+            <span className="text-purple-600 font-medium text-xl">Tech</span>
           </Link>
         </div>
 
@@ -68,7 +68,7 @@ const Sidebar = ({ className }: SidebarProps) => {
                 className={cn(
                   "flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200",
                   isActive(item.path)
-                    ? "bg-primary text-white"
+                    ? "bg-gradient-to-r from-primary to-purple-600 text-white"
                     : "text-gray-600 hover:bg-gray-100"
                 )}
               >
